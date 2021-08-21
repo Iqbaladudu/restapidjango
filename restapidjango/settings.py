@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'serializerstutorial.urls'
+ROOT_URLCONF = 'restapidjango.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'serializerstutorial.wsgi.application'
+WSGI_APPLICATION = 'restapidjango.wsgi.application'
 
 
 # Database
